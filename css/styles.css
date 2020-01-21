@@ -1,0 +1,107 @@
+#title {
+  background-color: #659DBD;
+  /* color properties is white used in the title text
+    <h1>Meet new and interesting dogs nearby.</h1> */
+  color: white;
+}
+
+.title{
+  padding: 3% 0 0 1%;
+  font-family: Georgia, serif;
+}
+
+.job-title {
+  padding: 0 0 0 1%;
+  font-family: Georgia, serif;
+}
+
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5
+}
+
+h3 {
+  padding-top: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 30%;
+  /* transform: rotate(25deg); */
+  border-radius: 100%;
+  margin: 5% 3% 5% 40%;
+  height: auto;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.phone-image{
+  width: 3%;
+  /* transform: rotate(25deg); */
+  border-radius: 100%;
+  margin: 5% 3% 5% 40%;
+  height: auto;
+}
+.icon   {
+   color: #ef8172;
+   margin-bottom: 1rem;
+}
+
+/* pseudo class hover for the pseudo state */
+.icon:hover {
+   color: #ff4c68;
+}
+
+.testimonial-image {
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+}
+
+.press-image {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* make the botton outside the text */
+.carousel-item {
+      padding: 7% 15%;
+}
+
+.about-me {
+  padding: 1% 0 0 1%;
+  font-family: Georgia, serif;
+}
+
+.paragraph-1 {
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+
+footer {
+  text-align: center;
+}
