@@ -1,11 +1,11 @@
 #title {
-  background-color: #659DBD;
+  background-color: #659dbd;
   /* color properties is white used in the title text
     <h1>Meet new and interesting dogs nearby.</h1> */
   color: white;
 }
 
-.title{
+.title {
   padding: 3% 0 0 1%;
   font-family: Georgia, serif;
 }
@@ -15,17 +15,16 @@
   font-family: Georgia, serif;
 }
 
-
 h1 {
   font-family: "Montserrat-Black";
   font-size: 3rem;
-  line-height: 1.5
+  line-height: 1.5;
 }
 
 h2 {
   font-family: "Montserrat";
   font-size: 3rem;
-  line-height: 1.5
+  line-height: 1.5;
 }
 
 h3 {
@@ -38,15 +37,15 @@ h3 {
   padding: 3% 15%;
 }
 
-.navbar{
+.navbar {
   padding-bottom: 4.5rem;
 }
 
-.download-button{
+.download-button {
   margin: 5% 3% 5% 0;
 }
 
-.title-image{
+.title-image {
   width: 30%;
   /* transform: rotate(25deg); */
   border-radius: 100%;
@@ -59,27 +58,27 @@ h3 {
   padding: 5%;
 }
 
-.phone-image{
+.phone-image {
   width: 3%;
   /* transform: rotate(25deg); */
   border-radius: 100%;
   margin: 5% 3% 5% 40%;
   height: auto;
 }
-.icon   {
-   color: #ef8172;
-   margin-bottom: 1rem;
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
 }
 
 /* pseudo class hover for the pseudo state */
 .icon:hover {
-   color: #ff4c68;
+  color: #ff4c68;
 }
 
 .testimonial-image {
-   width: 10%;
-   border-radius: 100%;
-   margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
 .press-image {
@@ -89,7 +88,7 @@ h3 {
 
 /* make the botton outside the text */
 .carousel-item {
-      padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 .about-me {
@@ -104,4 +103,8 @@ h3 {
 
 footer {
   text-align: center;
+}
+
+.navbar-color {
+  color: black;
 }

@@ -1,96 +1,114 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>David Lee</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- bootstrap scripts -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>David Lee</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <!-- bootstrap scripts -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-  <h1 class="title">David Lee</h1>
-  <h5 class="job-title">Senior Software Engineer</h5>
-  <!-- container fluid adapts the width of the screen.  it takes 100% -->
-  <div class="container-fluid" <section id="title">
-
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="">About Me</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#Contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="files/Resume.pdf">Download</a>
-          </li>
-        </ul>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-md navbar-color">
+        <a class="navbar-brand navbar-color">About me</a>
       </div>
     </nav>
-
-    <!-- Title -->
-    <!-- to use bootstrp gridsystem have div enlose the entire row -->
-    <div class="row">
-      <!-- six unit column for large/desktop or bigger size 6 unit column any size smaller
-    it will take 100%-->
-      <div class="col-lg-6 about-me">
-        <h3>Hi, I'm David Lee</h3>
-        <h5>Senior Software Engineer at AT&T</h5>
-        <p class="paragraph-1">I have been an API developer for 12 years. Responsible for developing API solutions on various platforms to solve complex business needs using emerging technologies.  I have been a middleware developer for majority of my carerr.  However, I have experience in full stack, front end, backend, and chatbot development. <br>I love my job, and I love what I do. 
-          <br />Please click on the download link above to download my resume.<br /><br/></p>
-        <h5 class="col-lg-6 about-me">Go Blues!</h5>
-      </div>
-      <div class="col-lg-6">
-        <img class="title-image" src="images/AccessIdPic.jpeg">
-      </div>
-    </div>
-    </section>
-  </div>
-
-  <!-- Features -->
-
-  <section id="features">
-    <a name="Contact"></a>
-    <div class="row">
-      <div class="feature-box col-lg-4">
-        <!-- creating a custom class "icon" to add css styles to it -->
-        <i class="icon fas fa-check-circle fa-4x"></i>
-        <img src="images/email.png">
-        <p>stlpm4@yahoo.com</p>
-      </div>
-      <div class="feature-box col-lg-4">
-        <i class="fas fa-bullseye fa-4x"></i>
-        <img src="images/house.png">
-        <p>10251 Hartshill ln
-          <br>Saint Louis, MO 63128</br>
+    <!-- container fluid adapts the width of the screen.  it takes 100% -->
+    <div class="px-4 py-5 my-5 text-center">
+      <img
+        class="title-image mx-auto mb-4"
+        src="images/AccessIdPic.jpeg"
+        alt=""
+        width="72"
+        height="57"
+      />
+      <h1 class="display-5 fw-bold text-body-emphasis">Songtaek Lee</h1>
+      <h2 class="display-5 fw-bold text-body-emphasis">Software Engineer</h2>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Results-driven hands-on Technical Software Engineering Manager with
+          18+ years of experience leading enterprise-wide digital transformation
+          across utilities, energy, telecommunications, and healthcare. Unique
+          technology leader with patient health care licensed Respiratory
+          Therapist professional experience. Manage a team of 10, with 7
+          developers and 3 testers, C# on .NET framework. Certification in Azure
+          fundamentals. Directed and coordinated efforts with third party
+          vendors, ensuring solutions met both business and technical standards.
+          Expert in modern engineering practices including DevSecOps,
+          test-driven design, and domain-driven design, with a proven ability to
+          deliver resilient, scalable platforms that align technology with
+          business outcomes. Track record of guiding large-scale modernization
+          initiatives, introducing agile frameworks, and driving adoption of
+          next-generation tools across diverse teams. Skilled at building
+          cross-functional alignment, reducing technical debt, and enabling
+          secure, efficient, and sustainable delivery of mission-critical
+          systems.
         </p>
-      </div>
-      <div class="feature-box col-lg-4">
-        <i class="fas fa-heart fa-4x"></i>
-        <img src="images/telephone.png">
-        <p>314-277-6084</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="files/resume.pdf" download="resume.pdf">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+              Download Resume
+            </button>
+          </a>
+        </div>
       </div>
     </div>
-  </section>
 
-  <!-- Footer -->
+    <!-- Features -->
 
-  <footer id="footer">
+    <section id="features">
+      <a name="Contact"></a>
+      <div class="row">
+        <div class="feature-box col-lg-3">
+          <!-- creating a custom class "icon" to add css styles to it -->
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <img src="images/email.png" />
+          <p>stlpm4@yahoo.com</p>
+        </div>
+        <div class="feature-box col-lg-3">
+          <i class="fas fa-bullseye fa-4x"></i>
+          <img src="images/house.png" />
+          <p>Saint Louis, MO 63128<br /></p>
+        </div>
+        <div class="feature-box col-lg-3">
+          <i class="fas fa-heart fa-4x"></i>
+          <img src="images/telephone.png" />
+          <p>314-277-6084</p>
+        </div>
+        <div class="feature-box col-lg-3">
+          <i class="fas fa-heart fa-4x"></i>
+          <a href="linkedin.com/in/david-lee-012679178"></a>
+          <img src="images/download.png" />
+          </a>
+        </div>
+      </div>
+    </section>
 
-      <p>Powered by 💻 David Lee 💻</p>
+    <!-- Footer -->
 
-  </footer>
-
-
-</body>
-
+    <footer id="footer">
+      <p>Powered by 💻 Songtaek Lee 💻</p>
+    </footer>
+  </body>
 </html>
